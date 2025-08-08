@@ -1,6 +1,6 @@
 import HeroSection from "../sections/HeroSection";
 import Navbar from "../components/Navbar";
-import Slideshow from "../components/SlideShow";
+import Slideshow from "../components/Slideshow"
 import { useState } from "react";
 
 export default function HomePage() {
