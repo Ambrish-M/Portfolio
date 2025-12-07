@@ -1,31 +1,31 @@
-import HeroSection from "../sections/HeroSection";
 import Navbar from "../components/Navbar";
-import Slideshow from "../components/Slideshow"
-import { useState } from "react";
+import HeroSection from "../sections/HeroSection";
+import AboutSection from "../sections/AboutSection";
+import SkillsSection from "../sections/SkillsSection";
+import ExperienceSection from "../sections/ExperienceSection";
+import EducationSection from "../sections/EducationSection";
+import ProjectsSection from "../sections/ProjectsSection";
+import ContactSection from "../sections/ContactSection";
+import Footer from "../components/Footer";
 
 export default function HomePage() {
-  const [currentSection, setCurrentSection] = useState(null); // null means homepage
-
-  const handleNavClick = (index) => {
-    setCurrentSection(index); // switch to slideshow
-  };
-
-  const handleCloseSlideshow = () => {
-    setCurrentSection(null); // return to home
-  };
-
   return (
-    <div>
-      <Navbar
-        onSelect={handleNavClick}
-        isHome={currentSection === null}
-        goHome={handleCloseSlideshow}
-      />
-      {currentSection === null ? (
-        <HeroSection onStartClick={handleNavClick} />
-      ) : (
-        <Slideshow current={currentSection} />
-      )}
+    <div className="bg-gradient-to-b from-black via-rose-950 to-black text-white">
+      <Navbar />
+
+      {/* Hero Section */}
+      <HeroSection />
+
+      {/* Main Sections */}
+      <AboutSection />
+      <SkillsSection />
+      <ExperienceSection />
+      <EducationSection />
+      <ProjectsSection />
+      <ContactSection />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
