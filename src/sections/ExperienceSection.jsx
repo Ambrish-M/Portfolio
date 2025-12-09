@@ -6,7 +6,7 @@ const experience = {
   title: "Fullstack Developer Intern",
   company: "Novitech R&D Pvt Ltd",
   period: "Feb 2025 - May 2025",
-  certificate: "../../public/Fullstack-internship.pdf",
+  certificate:"/Fullstack-internship.pdf",
   description:
     "Gained hands on experience on fundamentals of fullstack development technologies like Html,Css,JavaScript,React,Nodejs,Expressjs and MongoDB.Following that moved on into mern stack to created dynamic web applications."
 };
