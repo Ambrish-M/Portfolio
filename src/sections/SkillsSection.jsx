@@ -9,7 +9,7 @@ import jsIcon from "../assets/icons/javascript.png";
 import reactIcon from "../assets/icons/react.png";
 import nodeIcon from "../assets/icons/nodejs.png";
 import expressIcon from "../assets/icons/express.png";
-import mongoIcon from "../assets/icons/Mongodb.png";
+import mongoIcon from "../assets/icons/mongodb.png";
 import tailwindIcon from "../assets/icons/tailwindcss.png";
 import reduxIcon from "../assets/icons/redux.png";
 
