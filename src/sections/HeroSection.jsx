@@ -59,7 +59,7 @@ export default function HeroSection() {
           {/* Buttons */}
           <div className="flex justify-center sm:justify-start gap-4 flex-wrap">
             <a
-              href="/Ambrish_M_Resume.pdf"
+              href="/Ambrish Resume.pdf"
               download
               className="px-6 py-3 bg-rose-600 text-white rounded-full 
                          hover:bg-rose-700 shadow-lg shadow-rose-500/30 transition"
